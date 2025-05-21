@@ -17,8 +17,11 @@ ha-card {
 
   --primary-text-color: #DADADB;
   --secondary-text-color: #BDBDBD;
-  --paper-item-icon-color: #DADADB;
-  --mdc-theme-primary: #DADADB;
+  --paper-item-icon-color: var(--primary-text-color);
+  --mdc-theme-primary: var(--primary-text-color);
+
+  --state-icon-color: var(--primary-text-color);
+  --state-inactive-color: var(--primary-text-color);
 }
 
 .root {
